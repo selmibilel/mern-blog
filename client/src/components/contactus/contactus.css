@@ -1,0 +1,57 @@
+.contactus{
+    flex: 9;
+    margin-top: 20px;
+}
+
+.titleForm{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+    margin-left: 80px;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    margin-top: 15px;
+    width: 80%;
+    align-self: center;
+}
+
+.formTextarea{
+    font-size: 15px !important;
+    height: 100px;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.btnSend{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 75px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.confirmation{
+    font-size: 18px;
+    color: rgb(9, 216, 9);
+    text-align: center;
+    height: 40px;
+}
